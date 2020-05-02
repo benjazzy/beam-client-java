@@ -15,14 +15,6 @@
         </license>
     </licenses>
 
-    <distributionManagement>
-        <repository>
-            <id>github</id>
-            <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/benjazzy/beam-client-java</url>
-        </repository>
-    </distributionManagement>
-
     <properties>
         <guava.version>17.0</guava.version>
         <httpclient.version>4.3.6</httpclient.version>
