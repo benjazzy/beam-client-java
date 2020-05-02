@@ -6,7 +6,7 @@
 
     <groupId>com.mixer</groupId>
     <artifactId>api</artifactId>
-    <version>6.0.0</version>
+    <version>6.0.2</version>
 
     <licenses>
         <license>
@@ -75,12 +75,12 @@
         <repository>
             <id>github</id>
             <name>GitHub Mixer Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/mixer/beam-client-java</url>
+            <url>https://maven.pkg.github.com/benjazzy/beam-client-java</url>
         </repository>
         <snapshotRepository>
             <uniqueVersion>false</uniqueVersion>
             <id>github</id>
-            <url>https://maven.pkg.github.com/mixer/beam-client-java</url>
+            <url>https://maven.pkg.github.com/benjazzy/beam-client-java</url>
         </snapshotRepository>
     </distributionManagement>
 
