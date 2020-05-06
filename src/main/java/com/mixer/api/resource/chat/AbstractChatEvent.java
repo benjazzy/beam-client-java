@@ -22,7 +22,8 @@ public abstract class AbstractChatEvent<T extends AbstractChatEvent.EventData> e
         @SerializedName("UserJoin") USER_JOIN (UserJoinEvent.class),
         @SerializedName("UserLeave") USER_LEAVE (UserLeaveEvent.class),
         @SerializedName("ClearMessages") CLEAR_MESSAGES (ClearMessagesEvent.class),
-        @SerializedName("PurgeMessage") PURGE_MESSAGE (PurgeMessageEvent.class);
+        @SerializedName("PurgeMessage") PURGE_MESSAGE (PurgeMessageEvent.class),
+        @SerializedName("UserTimeout") USER_TIMEOUT (UserTimeoutEvent.class);
 
         private final Class<? extends AbstractChatEvent> correspondingClass;
 

@@ -14,7 +14,7 @@ public class CastVoteMessage extends AbstractChatMethod {
     }
 
     public CastVoteMessage() {
-        super("vote");
+        super("vote:choose");
     }
 
     public List<Integer> arguments;

@@ -5,7 +5,7 @@ import com.mixer.api.resource.MixerUser;
 
 import java.util.List;
 
-public class ModeratorData {
+public class UserData {
     @SerializedName("user_name") public String username;
     @SerializedName("user_id") public int userId;
     @SerializedName("user_roles") public List<MixerUser.Role> userRole;
